@@ -1,0 +1,16 @@
+[package]
+name = "hal_sensor_dht"
+version = "0.1.0"
+authors = ["Karsten Lüth <kl@kloc-consulting.de>"]
+edition = "2018"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+# By default, this library will not use floating points. But you can enable them.
+floats = []
+
+[dependencies.embedded-hal]
+version = "0.2.4"
+features = ["unproven"]
