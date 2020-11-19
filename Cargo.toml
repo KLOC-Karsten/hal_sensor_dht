@@ -4,8 +4,12 @@ version = "0.1.0"
 authors = ["Karsten Lüth <kl@kloc-consulting.de>"]
 edition = "2018"
 license = "Apache-2.0"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+repository = "https://github.com/KLOC-Karsten/hal_sensor_dht"
+homepage = "https://github.com/KLOC-Karsten/hal_sensor_dht"
+description = "A Embedded HAL driver for the DHT humidity and temperature sensors."
+readme = "README.md"
+keywords = ["embedded", "sensors", "DHT"]
+categories = ["embedded", "hardware-support", "no-std"]
 
 [features]
 # By default, this library will not use floating points. But you can enable them.
